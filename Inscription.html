@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Inscription Apprenants</title>
+		<link rel="stylesheet" href="Apprenant_Form.css">
+		<meta charset="utf-8">
+		<script src=""></script>
+	</head>
+	<body>
+		<form name="form_login" method="POST" action="traitementlogin.php">
+			<div>
+				<label for="pseudo">Pseudo</label>
+				<input type="text" name="pseudo" id="pseudo" required placeholder="indiquez votre pseudo">
+			</div>
+			<br />
+			<div>
+				<label for="email">E-mail</label>
+				<input type="email" name="email" id="email" required placeholder="indiquez votre email">
+			</div>
+			<br />
+			<div>
+				<label for="password">Mot de passe</label>
+				<input type="password" name="password" id="password" required>
+			</div>
+			<br />
+			<div>
+				<button type="submit">Je m'inscris</button>
+			</div>
+		</form>
+
+	</body>
+</html>
+
